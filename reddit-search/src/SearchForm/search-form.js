@@ -27,9 +27,9 @@ class SearchForm extends Component {
 
   render() {
     let className = 'reddit-search'
-    if ((this.state.maxResults < 1) || (this.state.maxResults > 100)) {
-      className += ' error'
-    }
+    // if ((this.state.maxResults < 1) || (this.state.maxResults > 100)) {
+    //   className += ' error'
+    // }
     return (
       <div className={className}>
         <form onSubmit={this.handleSubmit}>
